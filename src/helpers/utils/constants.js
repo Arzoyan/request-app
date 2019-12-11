@@ -99,8 +99,8 @@ export const ROWS = [{ label: "No", value: "No" },
 { label: "stageNumber", value: "Վիճակ" },
 { label: "time", value: "Ժամ/Ամսաթիվ" }]
 
-export const STAGE= [{label:"1", value:"Ծառայության ձևակերպում"},
-                     {label:"2", value:"Սպասարկման ընթացք"},
-                     {label:"3", value:"կատարման հետ կապված խնդիր"},
-                     {label:"9", value:"Այլ"},
+export const STAGE = [{ label: "1", value: "Ծառայության ձևակերպում" },
+{ label: "2", value: "Սպասարկման ընթացք" },
+{ label: "3", value: "կատարման հետ կապված խնդիր" },
+{ label: "9", value: "Այլ" },
 ]
