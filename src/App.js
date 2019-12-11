@@ -1,20 +1,11 @@
 import React from "react";
-import ModalForm from "./components/ModalForm"
-import TableForm from "./components/TableForm"
+import HomePage from "./app/page/HomePage";
 
 
 const App = () => {
   return (
     <div>
-      uuhuh
-{
-        // <ModalForm />
-        <TableForm />
-
-      }
-      <div>
-        999
-</div>
+      <HomePage />
     </div>
   );
 };
