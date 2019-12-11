@@ -27,9 +27,6 @@ export default function ModalForm() {
   };
   return (
     <div>
-      <Button variant="outlined" color="primary" onClick={handleClickOpen}>
-        Slide in alert dialog
-      </Button>
       <Dialog
         open={open}
         TransitionComponent={Transition}
@@ -38,7 +35,7 @@ export default function ModalForm() {
         aria-labelledby="alert-dialog-slide-title"
         aria-describedby="alert-dialog-slide-description"
       >
-        <Close onClick={()=>{handleClose()} } />
+        <Close onClick={() => { handleClose() }} />
         <DialogContent>
           <DialogContentText id="alert-dialog-slide-description">
             ներկա փուլ {user.stageNumber[0]}
